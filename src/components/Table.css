@@ -1,0 +1,78 @@
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust the max-width as per your requirement */
+    margin: 0 auto; /* Center align the container */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Reduced margin */
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.toolbar input:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.toolbar button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toolbar button:hover {
+    background-color: #218838;
+}
+
+.toolbar button:active {
+    background-color: #1e7e34;
+}
+
+.toolbar button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.25);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; 
+    
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
